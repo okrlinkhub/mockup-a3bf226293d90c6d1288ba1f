@@ -1,0 +1,320 @@
+{
+  "title": "Gestione tornei di giochi da tavolo",
+  "description": "Prototipo navigabile per consultare tornei inventati, filtrare le partite e simulare iscrizioni senza inviare dati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica dei tornei e delle partite in programma. Le tabelle supportano filtri per torneo e stato.",
+      "metrics": [
+        {
+          "label": "Tornei attivi",
+          "value": "4"
+        },
+        {
+          "label": "Partite in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni simulate",
+          "value": "38"
+        }
+      ],
+      "columns": [
+        "Torneo",
+        "Gioco",
+        "Stato",
+        "Data immaginaria",
+        "Iscritti"
+      ],
+      "rows": [
+        [
+          "Coppa Lumo",
+          "Nebbie di Nubi",
+          "Iscrizioni aperte",
+          "12 Frondario",
+          "10"
+        ],
+        [
+          "Sfida Vela",
+          "Rotte di Cristallo",
+          "In corso",
+          "14 Frondario",
+          "8"
+        ],
+        [
+          "Lega Brina",
+          "Giardini Lunari",
+          "Iscrizioni aperte",
+          "18 Frondario",
+          "12"
+        ],
+        [
+          "Duello Rame",
+          "Officina delle Rune",
+          "Concluso",
+          "9 Frondario",
+          "8"
+        ]
+      ],
+      "form": [
+        "Torneo",
+        "Gioco",
+        "Stato",
+        "Data immaginaria",
+        "Iscritti"
+      ]
+    },
+    {
+      "id": "tornei",
+      "title": "Tornei",
+      "description": "Esplora e filtra il catalogo dei tornei inventati per gioco e stato.",
+      "metrics": [
+        {
+          "label": "Tornei nel catalogo",
+          "value": "6"
+        },
+        {
+          "label": "Iscrizioni aperte",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Torneo",
+        "Gioco",
+        "Organizzazione immaginaria",
+        "Stato",
+        "Data immaginaria"
+      ],
+      "rows": [
+        [
+          "Coppa Lumo",
+          "Nebbie di Nubi",
+          "Gilda del Dado Blu",
+          "Iscrizioni aperte",
+          "12 Frondario"
+        ],
+        [
+          "Sfida Vela",
+          "Rotte di Cristallo",
+          "Circolo delle Maree",
+          "In corso",
+          "14 Frondario"
+        ],
+        [
+          "Lega Brina",
+          "Giardini Lunari",
+          "Compagnia delle Foglie",
+          "Iscrizioni aperte",
+          "18 Frondario"
+        ],
+        [
+          "Duello Rame",
+          "Officina delle Rune",
+          "Ordine dei Meccanismi Gentili",
+          "Concluso",
+          "9 Frondario"
+        ],
+        [
+          "Notte Prisma",
+          "Mappe di Zefiro",
+          "Gilda del Dado Blu",
+          "Iscrizioni aperte",
+          "21 Frondario"
+        ],
+        [
+          "Circuito Timo",
+          "Cronache di Quarzo",
+          "Compagnia delle Foglie",
+          "Concluso",
+          "6 Frondario"
+        ]
+      ],
+      "form": [
+        "Torneo",
+        "Gioco",
+        "Organizzazione immaginaria",
+        "Stato",
+        "Data immaginaria"
+      ]
+    },
+    {
+      "id": "partite",
+      "title": "Partite",
+      "description": "Consulta le partite dei tornei e restringi l’elenco con i filtri per stato e torneo.",
+      "metrics": [
+        {
+          "label": "Partite totali",
+          "value": "8"
+        },
+        {
+          "label": "Da disputare",
+          "value": "4"
+        },
+        {
+          "label": "Completate",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Partita",
+        "Torneo",
+        "Tavolo immaginario",
+        "Stato",
+        "Turno",
+        "Esito"
+      ],
+      "rows": [
+        [
+          "Dado d’Ambra",
+          "Coppa Lumo",
+          "Tavolo 1",
+          "In programma",
+          "1",
+          "Da definire"
+        ],
+        [
+          "Luna di Vetro",
+          "Coppa Lumo",
+          "Tavolo 2",
+          "In programma",
+          "1",
+          "Da definire"
+        ],
+        [
+          "Rotta Boreale",
+          "Sfida Vela",
+          "Tavolo 1",
+          "In corso",
+          "2",
+          "Da definire"
+        ],
+        [
+          "Marea Chiara",
+          "Sfida Vela",
+          "Tavolo 2",
+          "In programma",
+          "2",
+          "Da definire"
+        ],
+        [
+          "Foglia d’Argento",
+          "Lega Brina",
+          "Tavolo 1",
+          "In programma",
+          "1",
+          "Da definire"
+        ],
+        [
+          "Radice Stellata",
+          "Lega Brina",
+          "Tavolo 2",
+          "Completata",
+          "1",
+          "Vittoria blu"
+        ],
+        [
+          "Ingranaggio Rosa",
+          "Duello Rame",
+          "Tavolo 1",
+          "Completata",
+          "Finale",
+          "Vittoria rame"
+        ],
+        [
+          "Prisma Errante",
+          "Notte Prisma",
+          "Tavolo 1",
+          "In programma",
+          "1",
+          "Da definire"
+        ]
+      ],
+      "form": [
+        "Partita",
+        "Torneo",
+        "Tavolo immaginario",
+        "Stato",
+        "Turno",
+        "Esito"
+      ]
+    },
+    {
+      "id": "dettaglio-torneo",
+      "title": "Dettaglio torneo",
+      "description": "Esamina regole, stato e partite associate a un torneo selezionato.",
+      "metrics": [
+        {
+          "label": "Posti disponibili",
+          "value": "6"
+        },
+        {
+          "label": "Partite previste",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Torneo",
+        "Gioco",
+        "Organizzazione immaginaria",
+        "Stato",
+        "Formato",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Coppa Lumo",
+          "Nebbie di Nubi",
+          "Gilda del Dado Blu",
+          "Iscrizioni aperte",
+          "Eliminazione gentile",
+          "6"
+        ]
+      ],
+      "form": [
+        "Torneo",
+        "Gioco",
+        "Organizzazione immaginaria",
+        "Stato",
+        "Formato",
+        "Posti disponibili"
+      ]
+    },
+    {
+      "id": "iscrizione",
+      "title": "Iscrizione simulata",
+      "description": "Compila il modulo per simulare l’aggiunta di una squadra inventata alla Coppa Lumo. Nessun dato viene inviato.",
+      "metrics": [
+        {
+          "label": "Posti disponibili",
+          "value": "6"
+        },
+        {
+          "label": "Iscrizioni simulate",
+          "value": "10"
+        }
+      ],
+      "columns": [
+        "Squadra immaginaria",
+        "Torneo",
+        "Gioco",
+        "Stato iscrizione"
+      ],
+      "rows": [
+        [
+          "Comete di Piuma",
+          "Coppa Lumo",
+          "Nebbie di Nubi",
+          "In attesa di conferma"
+        ]
+      ],
+      "form": [
+        "Squadra immaginaria",
+        "Torneo",
+        "Gioco",
+        "Stato iscrizione"
+      ]
+    }
+  ]
+}
